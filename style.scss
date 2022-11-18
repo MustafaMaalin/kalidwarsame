@@ -1,0 +1,31 @@
+@import "assets/scss/homepage";
+@import "assets/scss/variables";
+@import "assets/scss/header";
+
+@font-face{
+  src: url(assets/fonts/Marvel/Marvel-Bold.ttf);
+  src: url(assets/fonts/Marvel/Marvel-BoldItalic.ttf);
+  src: url(assets/fonts/Marvel/Marvel-Italic.ttf);
+  src: url(assets/fonts/Marvel/Marvel-Regular.ttf);
+  font-family: Marvel;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $blue !important;
+  font-family: Marvel !important;
+}
+
+
+
+/*
+Theme Name: Kalid's portfolio
+Author: Kalid Warsame
+Author URI: https://www.linkedin.com/in/kalid-warsame-a71727151/?originalSubdomain=au
+Description: My work portfolio
+This theme is made by Kalid Warsame! Only use it with permission of author!
+*/
